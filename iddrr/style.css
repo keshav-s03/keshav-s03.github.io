@@ -1,0 +1,57 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+div.container {
+    width: 1400px;
+    background-color: seagreen;
+}
+
+body {
+    background-color: lightslategrey;
+}
+
+img-1 {
+    width: 400px;
+    float: left;
+}
+
+img-2 {
+    width: 400px;
+    float: left;
+}
+
+img-3 {
+    width: 400px;
+    float: left;
+}
+
+img-4 {
+    width: 400px;
+    float: left;
+}
+
+img-5 {
+    width: 400px;
+    float: left;
+}
