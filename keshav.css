@@ -1,0 +1,19 @@
+body {
+    background-color: red;
+        
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+.box-1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
