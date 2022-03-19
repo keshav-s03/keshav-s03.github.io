@@ -11,7 +11,7 @@ body {
 
 
 h4 {
-   background-image: linear-gradient(#0F2027,#203A43,#2C5364);
+   background: linear-gradient(#0F2027,#203A43,#2C5364);
    padding: 1rem 2rem;
    text-align: center;
  }
@@ -27,9 +27,7 @@ h4 {
  }
 
  img {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  margin: 20px auto;
  }
  
  h1 {
@@ -141,6 +139,17 @@ h4 {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+#btn {
+  background-color: #000; 
+  border: 25px;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 @-webkit-keyframes fade {
