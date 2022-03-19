@@ -4,7 +4,7 @@ const setBg = () => {
     color.innerHTML = "#" + randomColor;
   }
   
-  genNew.addEventListener("click", setBg);
+  btn.addEventListener("click", setBg);
   setBg();
 
   var slideIndex = 1;
